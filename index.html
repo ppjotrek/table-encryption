@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Algorytm partyzancki</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="input">
+        <button type="button" onclick="generateArray()" id="generate">Wygeneruj tablicę</button>
+    </div>
+    <div style="margin-top:30px;">
+        <input type="text" id="message">
+        <button type="button" onclick="encode()" id="encode">Zakoduj wiadomość</button>
+    </div>
+    <div id="idx">Indeksy:<br>0, 1, 2, 3, 4, 5, 6, 7, 8</div>
+    <div id="table" style="margin-top:30px;">
+        <div class="row" id="0"></div>
+        <div class="row" id="1"></div>
+        <div class="row" id="2"></div>
+        <div class="row" id="3"></div>
+        <div class="row" id="4"></div>
+        <div class="row" id="5"></div>
+        <div class="row" id="6"></div>
+        <div class="row" id="7"></div>
+        <div class="row" id="8"></div>
+    </div>
+    <div id="encoded-message" style="margin-top:50px;">Zakodowana wiadomość pojawi się tu...</div>
+</body>
+</html>
